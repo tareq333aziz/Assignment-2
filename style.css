@@ -1,0 +1,93 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(deeppink, orange);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.underline {
+    border: 2px solid deeppink;
+}
+
+.heading .profile img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-collection {
+    text-align: center;
+    color: deeppink;
+}
+
+.fa-star {
+    color: rgb(192, 192, 3);
+}
+
+.last-heading {
+    align-items: center;
+}
+
+.electronic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    padding: 40px;
+}
+
+.thumbnail {
+    width: 177px;
+    height: 117px;
+}
+
+.last-pic {
+    width: 500px;
+    height: 250px;
+}
+
+.optional {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-blog {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.last-paragraph {
+    padding: 40px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: deeppink;
+}
